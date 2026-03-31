@@ -1,0 +1,141 @@
+const properties = [
+  {
+    id: 'pg-101',
+    title: 'Luxury 3BHK Apartment',
+    price: 12500000,
+    priceLabel: '₹1.25 Cr',
+    location: 'Gachibowli, Hyderabad',
+    area: '1850 sq.ft',
+    type: 'Apartment',
+    status: 'For Sale',
+    beds: 3,
+    baths: 3,
+    parking: 1,
+    images: [
+      'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1600&q=80',
+    ],
+    amenities: ['Gym', 'Pool', '24/7 Security', 'Power Backup', 'Clubhouse'],
+    description:
+      'A premium 3BHK in the heart of Gachibowli with modern interiors, high-rise views, and quick access to IT hubs.',
+  },
+  {
+    id: 'pg-102',
+    title: 'Modern 2BHK Near Metro',
+    price: 7200000,
+    priceLabel: '₹72 L',
+    location: 'Madhapur, Hyderabad',
+    area: '1250 sq.ft',
+    type: 'Apartment',
+    status: 'For Sale',
+    beds: 2,
+    baths: 2,
+    parking: 1,
+    images: [
+      'https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80',
+    ],
+    amenities: ['Lift', 'CCTV', 'Covered Parking', 'Near Metro'],
+    description:
+      'Move-in ready 2BHK with clean design, excellent ventilation, and superb connectivity to offices and malls.',
+  },
+  {
+    id: 'pg-103',
+    title: 'Independent Villa With Garden',
+    price: 23500000,
+    priceLabel: '₹2.35 Cr',
+    location: 'Kompally, Hyderabad',
+    area: '2900 sq.ft',
+    type: 'Villa',
+    status: 'For Sale',
+    beds: 4,
+    baths: 4,
+    parking: 2,
+    images: [
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=80',
+    ],
+    amenities: ['Private Garden', 'Gated Community', 'Terrace', 'Servant Room'],
+    description:
+      'Spacious 4BHK villa in a peaceful neighborhood, featuring a private garden and premium finishes throughout.',
+  },
+  {
+    id: 'pg-104',
+    title: 'Family-Friendly 3BHK',
+    price: 9800000,
+    priceLabel: '₹98 L',
+    location: 'Kondapur, Hyderabad',
+    area: '1720 sq.ft',
+    type: 'Apartment',
+    status: 'For Sale',
+    beds: 3,
+    baths: 3,
+    parking: 1,
+    images: [
+      'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1560185008-5bf9f2849488?auto=format&fit=crop&w=1600&q=80',
+    ],
+    amenities: ['Kids Play Area', 'Security', 'Jogging Track'],
+    description:
+      'A well-planned 3BHK designed for families, with bright rooms, practical layout, and top community amenities.',
+  },
+  {
+    id: 'pg-105',
+    title: 'Premium 1BHK Studio',
+    price: 4800000,
+    priceLabel: '₹48 L',
+    location: 'Hitech City, Hyderabad',
+    area: '720 sq.ft',
+    type: 'Studio',
+    status: 'For Rent',
+    beds: 1,
+    baths: 1,
+    parking: 0,
+    images: [
+      'https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1560067174-8943bdc73f16?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=80',
+    ],
+    amenities: ['Furnished', 'Near IT Parks', 'High Speed Internet'],
+    description:
+      'Compact and premium studio ideal for working professionals with furnished setup and quick commute to offices.',
+  },
+  {
+    id: 'pg-106',
+    title: 'Elegant Duplex Penthouse',
+    price: 31000000,
+    priceLabel: '₹3.10 Cr',
+    location: 'Banjara Hills, Hyderabad',
+    area: '3600 sq.ft',
+    type: 'Penthouse',
+    status: 'For Sale',
+    beds: 4,
+    baths: 5,
+    parking: 2,
+    images: [
+      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1560448071-7bdb196d8bd0?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1600&q=80',
+    ],
+    amenities: ['Private Deck', 'City View', 'Home Office', 'Concierge'],
+    description:
+      'A statement duplex penthouse with premium detailing, expansive decks, and breathtaking skyline views.',
+  },
+]
+
+export const propertyTypes = ['Apartment', 'Villa', 'Studio', 'Penthouse']
+
+export const locations = [
+  'Gachibowli',
+  'Madhapur',
+  'Kompally',
+  'Kondapur',
+  'Hitech City',
+  'Banjara Hills',
+]
+
+export default properties
