@@ -43,14 +43,14 @@ export default function Home() {
               className="absolute inset-0 block dark:hidden"
               style={{
                 backgroundImage:
-                  'radial-gradient(760px 280px at 18% 10%, rgba(56,189,248,0.22), transparent 60%), radial-gradient(900px 320px at 92% 18%, rgba(15,23,42,0.06), transparent 55%)',
+                  'radial-gradient(760px 280px at 18% 10%, rgba(249,115,22,0.18), transparent 60%), radial-gradient(900px 320px at 92% 18%, rgba(37,99,235,0.16), transparent 55%)',
               }}
             />
             <div
               className="absolute inset-0 hidden dark:block"
               style={{
                 backgroundImage:
-                  'radial-gradient(700px 260px at 18% 12%, rgba(56,189,248,0.35), transparent 60%), radial-gradient(900px 320px at 90% 20%, rgba(56,189,248,0.18), transparent 55%)',
+                  'radial-gradient(700px 260px at 18% 12%, rgba(249,115,22,0.22), transparent 60%), radial-gradient(900px 320px at 90% 20%, rgba(37,99,235,0.22), transparent 55%)',
               }}
             />
 
@@ -68,7 +68,7 @@ export default function Home() {
               <div className="mt-8 flex flex-col sm:flex-row gap-3">
                 <Link
                   to="/properties"
-                  className="inline-flex items-center justify-center rounded-2xl bg-brand-accent px-6 py-3 text-sm font-semibold text-slate-900 shadow-soft hover:brightness-110"
+                  className="inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-brand-accent to-brand-blue px-6 py-3 text-sm font-semibold text-white shadow-soft hover:brightness-110"
                 >
                   Explore Properties
                 </Link>

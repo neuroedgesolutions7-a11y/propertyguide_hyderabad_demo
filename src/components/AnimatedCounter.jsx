@@ -32,7 +32,7 @@ export default function AnimatedCounter({ label, value, suffix }) {
       transition={{ duration: 0.35 }}
       className="glass-soft rounded-2xl p-5"
     >
-      <div className="text-2xl font-semibold tracking-tight text-slate-900 dark:text-white">
+      <div className="text-2xl font-semibold tracking-tight text-brand-blue dark:text-white">
         <AnimatedNumber value={value} />
         {suffix ? <span>{suffix}</span> : null}
       </div>

@@ -9,20 +9,20 @@
 
   body {
     @apply font-sans bg-slate-50 text-slate-900 antialiased;
-    background-image: radial-gradient(1100px 500px at 10% -10%, rgba(56, 189, 248, 0.16), transparent 60%),
-      radial-gradient(900px 500px at 95% 0%, rgba(15, 23, 42, 0.06), transparent 60%),
+    background-image: radial-gradient(1100px 500px at 10% -10%, rgba(249, 115, 22, 0.14), transparent 60%),
+      radial-gradient(900px 500px at 95% 0%, rgba(37, 99, 235, 0.10), transparent 60%),
       linear-gradient(180deg, #ffffff 0%, #f5f7fb 60%, #eef2ff 100%);
   }
 
   .dark body {
     @apply bg-brand-primary text-slate-100;
-    background-image: radial-gradient(1000px 500px at 20% -10%, rgba(56, 189, 248, 0.18), transparent 60%),
-      radial-gradient(900px 500px at 90% 10%, rgba(56, 189, 248, 0.12), transparent 55%),
+    background-image: radial-gradient(1000px 500px at 20% -10%, rgba(249, 115, 22, 0.18), transparent 60%),
+      radial-gradient(900px 500px at 90% 10%, rgba(37, 99, 235, 0.16), transparent 55%),
       linear-gradient(180deg, #0b1224 0%, #0f172a 45%, #070a13 100%);
   }
 
   ::selection {
-    background: rgba(56, 189, 248, 0.35);
+    background: rgba(37, 99, 235, 0.35);
   }
 }
 

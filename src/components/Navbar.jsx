@@ -3,6 +3,7 @@ import { Menu, X, Sun, Moon } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 
+import logo from '../assets/logo/image.png'
 import useScrollPosition from '../hooks/useScrollPosition.js'
 import { useTheme } from '../hooks/ThemeProvider.jsx'
 
@@ -65,12 +66,18 @@ export default function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 md:px-6 lg:px-8 xl:w-[80%] xl:max-w-none xl:mx-auto xl:px-0">
         <Link to="/" className="flex items-center gap-2">
-          <div className="h-10 w-10 rounded-2xl bg-brand-accent/15 ring-1 ring-brand-accent/30 grid place-items-center">
-            <span className="text-brand-accent font-bold">PG</span>
+          <div className="h-11 w-11 overflow-hidden rounded-2xl bg-white ring-1 ring-slate-900/10 dark:bg-white/5 dark:ring-white/10">
+            <img src={logo} alt="Property Guide Hyderabad" className="h-full w-full object-contain" />
           </div>
-          <div className="leading-tight">
-            <div className="text-sm text-slate-600 dark:text-white/70">Property Guide</div>
-            <div className="text-base font-semibold tracking-tight text-slate-900 dark:text-white">Hyderabad</div>
+          <div className="flex flex-col justify-center leading-tight">
+            <div className="text-[15px] font-bold tracking-tight text-slate-900 dark:text-white">
+              Property Guide
+            </div>
+            <div className="mt-1">
+              <span className="inline-flex items-center rounded-full bg-gradient-to-r from-brand-accent/15 to-brand-blue/15 px-2.5 py-1 text-[11px] font-semibold tracking-wide text-slate-700 ring-1 ring-slate-900/10 dark:text-white/80 dark:ring-white/10">
+                Hyderabad
+              </span>
+            </div>
           </div>
         </Link>
 
@@ -104,7 +111,7 @@ export default function Navbar() {
 
           <Link
             to="/properties"
-            className="ml-2 inline-flex items-center rounded-xl bg-brand-accent px-4 py-2 text-sm font-semibold text-slate-900 shadow-soft transition hover:brightness-110"
+            className="ml-2 inline-flex items-center rounded-xl bg-gradient-to-r from-brand-accent to-brand-blue px-4 py-2 text-sm font-semibold text-white shadow-soft transition hover:brightness-110"
           >
             Explore
           </Link>
@@ -153,7 +160,7 @@ export default function Navbar() {
 
             <Link
               to="/properties"
-              className="mt-2 inline-flex items-center justify-center rounded-xl bg-brand-accent px-4 py-2 text-sm font-semibold text-slate-900 shadow-soft"
+              className="mt-2 inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-brand-accent to-brand-blue px-4 py-2 text-sm font-semibold text-white shadow-soft"
             >
               Explore Properties
             </Link>

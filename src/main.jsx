@@ -11,3 +11,9 @@ createRoot(document.getElementById('root')).render(
     </ThemeProvider>
   </StrictMode>,
 )
+
+const loader = document.getElementById('app-loader')
+if (loader) {
+  loader.classList.add('loaded')
+  window.setTimeout(() => loader.remove(), 320)
+}

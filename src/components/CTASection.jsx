@@ -15,7 +15,7 @@ export default function CTASection() {
           className="absolute inset-0 opacity-25"
           style={{
             backgroundImage:
-              'radial-gradient(700px 240px at 15% 10%, rgba(56,189,248,0.65), transparent 55%), radial-gradient(750px 260px at 90% 60%, rgba(56,189,248,0.35), transparent 55%)',
+              'radial-gradient(700px 240px at 15% 10%, rgba(249,115,22,0.55), transparent 55%), radial-gradient(750px 260px at 90% 60%, rgba(37,99,235,0.45), transparent 55%)',
           }}
         />
         <div className="relative flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
@@ -33,7 +33,7 @@ export default function CTASection() {
           <div className="flex flex-col sm:flex-row gap-3">
             <Link
               to="/properties"
-              className="inline-flex items-center justify-center rounded-2xl bg-brand-accent px-6 py-3 text-sm font-semibold text-slate-900 shadow-soft hover:brightness-110"
+              className="inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-brand-accent to-brand-blue px-6 py-3 text-sm font-semibold text-white shadow-soft hover:brightness-110"
             >
               Explore Properties
             </Link>

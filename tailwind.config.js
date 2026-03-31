@@ -8,7 +8,8 @@ export default {
         brand: {
           primary: '#0F172A',
           secondary: '#1E293B',
-          accent: '#38BDF8',
+          accent: '#F97316',
+          blue: '#2563EB',
         },
       },
       fontFamily: {

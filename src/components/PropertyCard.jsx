@@ -39,7 +39,7 @@ export default function PropertyCard({ property }) {
             <span>{property.area}</span>
           </div>
           <div className="flex items-center gap-2 rounded-xl bg-slate-900/5 px-3 py-2 ring-1 ring-slate-900/10 dark:bg-white/5 dark:ring-white/10">
-            <BedDouble size={14} className="text-brand-accent" />
+            <BedDouble size={14} className="text-brand-blue" />
             <span>{property.beds} Beds</span>
           </div>
           <div className="flex items-center gap-2 rounded-xl bg-slate-900/5 px-3 py-2 ring-1 ring-slate-900/10 dark:bg-white/5 dark:ring-white/10">
@@ -47,7 +47,7 @@ export default function PropertyCard({ property }) {
             <span>{property.baths} Baths</span>
           </div>
           <div className="flex items-center gap-2 rounded-xl bg-slate-900/5 px-3 py-2 ring-1 ring-slate-900/10 dark:bg-white/5 dark:ring-white/10">
-            <CarFront size={14} className="text-brand-accent" />
+            <CarFront size={14} className="text-brand-blue" />
             <span>{property.parking} Parking</span>
           </div>
         </div>
